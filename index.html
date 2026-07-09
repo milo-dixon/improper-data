@@ -8,24 +8,24 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="brand">
-      <div class="logo">MD</div>
-      <div>
-        <h1>Milo Dixon</h1>
-        <p>C-Minus Labs</p>
-      </div>
+  <a class="brand" href="index.html">
+    <div class="logo">MD</div>
+    <div>
+      <h1>Milo Dixon</h1>
+      <p>C-Minus Labs</p>
     </div>
+  </a>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="templates.html">Templates</a>
-      <a href="about.html">About</a>
-      <a href="https://milo-dixon.github.io/" target="_blank" rel="noopener">Writing Site</a>
-    </nav>
-  </header>
-
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="templates.html">Templates</a>
+    <a href="about.html">About</a>
+    <a href="https://milo-dixon.github.io/" target="_blank" rel="noopener">Writing Site</a>
+  </nav>
+</header>
   <main>
+
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Analytics • Operations • Workflow Design</p>
@@ -34,27 +34,38 @@
           C-Minus Labs is my professional portfolio for analytics, process improvement,
           documentation, training operations, automation, and internal systems work.
         </p>
+
         <div class="hero-actions">
           <a class="button primary" href="projects.html">View Projects</a>
           <a class="button secondary" href="about.html">About Me</a>
+        </div>
+
+        <div class="tool-strip">
+          <span>Excel</span>
+          <span>Power BI</span>
+          <span>SharePoint</span>
+          <span>Power Automate</span>
+          <span>Microsoft 365</span>
+          <span>Documentation</span>
         </div>
       </div>
 
       <div class="dashboard-card">
         <div class="dashboard-header">
           <span>Portfolio Overview</span>
-          <span>Sample Data</span>
+          <span class="status-chip">Sample Data</span>
         </div>
+
         <div class="metrics">
           <div>
             <p>Project Areas</p>
             <strong>5</strong>
-            <span>Analytics, HR, training, ops, documentation</span>
+            <span>Analytics, HR, training, operations, documentation</span>
           </div>
           <div>
             <p>Featured Projects</p>
-            <strong>3</strong>
-            <span>Initial portfolio build</span>
+            <strong>6</strong>
+            <span>Initial portfolio roadmap</span>
           </div>
           <div>
             <p>Primary Focus</p>
@@ -62,38 +73,60 @@
             <span>Clearer systems and reporting</span>
           </div>
         </div>
-        <div class="chart-placeholder">
-          <div class="bar bar-one"></div>
-          <div class="bar bar-two"></div>
-          <div class="bar bar-three"></div>
-          <div class="bar bar-four"></div>
-          <div class="bar bar-five"></div>
+
+        <div class="chart-panel">
+          <div class="chart-title">
+            <span>Workflow Activity</span>
+            <span>Quarterly View</span>
+          </div>
+          <div class="chart-placeholder">
+            <div class="bar bar-one"></div>
+            <div class="bar bar-two"></div>
+            <div class="bar bar-three"></div>
+            <div class="bar bar-four"></div>
+            <div class="bar bar-five"></div>
+            <div class="bar bar-six"></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section split">
-      <div>
-        <p class="eyebrow">Purpose</p>
-        <h3>What this site is for</h3>
-        <p>
-          This portfolio shows how I approach practical business problems: organizing
-          information, building dashboards, designing workflows, documenting processes,
-          and making internal systems easier to use.
-        </p>
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Project Areas</p>
+        <h3>What this portfolio covers</h3>
       </div>
 
-      <div class="callout">
-        <h4>Note on project data</h4>
-        <p>
-          Projects on this site use sample, synthetic, or sanitized data. They are built
-          to demonstrate structure, analysis, workflow design, documentation, and practical
-          problem-solving without exposing private employer or client information.
-        </p>
+      <div class="area-grid">
+        <article class="area-card">
+          <div class="icon">▦</div>
+          <h4>Analytics Dashboards</h4>
+          <p>Reporting views that organize business activity, performance indicators, and follow-up needs.</p>
+        </article>
+        <article class="area-card">
+          <div class="icon">↳</div>
+          <h4>Workflow Design</h4>
+          <p>Structured processes for intake, ownership, status tracking, and repeatable operations.</p>
+        </article>
+        <article class="area-card">
+          <div class="icon">✓</div>
+          <h4>Training Operations</h4>
+          <p>Tools for tracking completion, assessment scores, learner feedback, and content needs.</p>
+        </article>
+        <article class="area-card">
+          <div class="icon">ID</div>
+          <h4>HR Support Systems</h4>
+          <p>Onboarding, documentation, and employee-process tracking using practical system design.</p>
+        </article>
+        <article class="area-card">
+          <div class="icon">DOC</div>
+          <h4>Documentation</h4>
+          <p>SOP structures, ownership models, review schedules, and internal knowledge organization.</p>
+        </article>
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section class="section">
       <div class="section-heading">
         <p class="eyebrow">Selected Work</p>
         <h3>Featured Projects</h3>
@@ -101,77 +134,93 @@
 
       <div class="card-grid">
         <article class="card">
+          <div class="card-top">
+            <div class="icon">▤</div>
+            <span class="status-chip">Planned</span>
+          </div>
           <p class="card-label">Training Analytics</p>
           <h4>Training Effectiveness Dashboard</h4>
-          <p>
-            A sample reporting dashboard for tracking training completion, assessment scores,
-            learner feedback, and follow-up needs.
-          </p>
-          <div class="tags">
-            <span>Excel</span>
-            <span>Power BI</span>
-            <span>Training</span>
-          </div>
+          <p>A sample reporting dashboard for completion, assessment scores, learner feedback, and follow-up needs.</p>
+          <div class="tags"><span>Excel</span><span>Power BI</span><span>Training</span></div>
+          <a class="card-link" href="projects/training-dashboard.html">View case study</a>
         </article>
 
         <article class="card">
+          <div class="card-top">
+            <div class="icon">✓</div>
+            <span class="status-chip">Planned</span>
+          </div>
           <p class="card-label">HR Operations</p>
           <h4>New Hire Onboarding Tracker</h4>
-          <p>
-            A structured workflow for tracking onboarding tasks, equipment, documents,
-            training milestones, and manager check-ins.
-          </p>
-          <div class="tags">
-            <span>SharePoint</span>
-            <span>Process Design</span>
-            <span>HR</span>
-          </div>
+          <p>A structured workflow for onboarding tasks, equipment, documents, training milestones, and check-ins.</p>
+          <div class="tags"><span>SharePoint</span><span>Workflow</span><span>HR</span></div>
+          <a class="card-link" href="projects/onboarding-tracker.html">View case study</a>
         </article>
 
         <article class="card">
+          <div class="card-top">
+            <div class="icon">$</div>
+            <span class="status-chip">Planned</span>
+          </div>
           <p class="card-label">Operations Workflow</p>
           <h4>Invoice Follow-Up System</h4>
-          <p>
-            A sample operations tracker for invoice status, aging categories, follow-up dates,
-            owners, and next actions.
-          </p>
-          <div class="tags">
-            <span>Excel</span>
-            <span>Power Automate</span>
-            <span>Operations</span>
-          </div>
+          <p>A sample operations tracker for invoice status, aging categories, follow-up dates, owners, and next actions.</p>
+          <div class="tags"><span>Excel</span><span>Power Automate</span><span>Operations</span></div>
+          <a class="card-link" href="projects/invoice-follow-up.html">View case study</a>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="section split">
+    <section class="section split">
       <div>
-        <p class="eyebrow">Professional Focus</p>
-        <h3>Analytics, operations, and internal systems</h3>
+        <p class="eyebrow">Method</p>
+        <h3>How I approach projects</h3>
         <p>
-          My work sits across business operations, training, HR support, client communication,
-          reporting, documentation, Microsoft 365, and workflow improvement.
+          I focus on practical business use: what information needs to be visible,
+          who owns the next step, and how a workflow or report can help people act.
         </p>
       </div>
 
-      <div class="skill-list">
-        <span>Excel</span>
-        <span>Power BI</span>
-        <span>SharePoint</span>
-        <span>Power Automate</span>
-        <span>Microsoft 365</span>
-        <span>Documentation</span>
-        <span>Process Mapping</span>
-        <span>Training Operations</span>
-        <span>HR Support</span>
-        <span>Data Cleaning</span>
+      <div class="steps">
+        <div><span>01</span><p>Define the business question or process problem.</p></div>
+        <div><span>02</span><p>Organize the source data, fields, owners, and status categories.</p></div>
+        <div><span>03</span><p>Build a usable dashboard, tracker, workflow, or documentation structure.</p></div>
+        <div><span>04</span><p>Translate the output into clear next actions for the team.</p></div>
+        <div><span>05</span><p>Document how the system works and what should be improved next.</p></div>
       </div>
     </section>
-  </main>
 
-  <footer>
-    <p>Milo Dixon / C-Minus Labs</p>
-    <p>Professional portfolio using sample data and sanitized project scenarios.</p>
-  </footer>
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Data Note</p>
+        <h3>Sample data and sanitized scenarios</h3>
+        <p>
+          Projects on this site use sample, synthetic, or sanitized data. They are designed
+          to demonstrate structure, analysis, workflow design, documentation, and practical
+          problem-solving without exposing private employer or client information.
+        </p>
+      </div>
+      <div class="callout">
+        <h4>Professional focus</h4>
+        <p>
+          Business operations, training support, HR-adjacent workflows, reporting,
+          documentation, Microsoft 365, and internal systems.
+        </p>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+  <div>
+    <p class="footer-title">Milo Dixon / C-Minus Labs</p>
+    <p>Analytics, operations, workflow design, and internal systems portfolio.</p>
+  </div>
+  <div class="footer-links">
+    <a href="projects.html">Projects</a>
+    <a href="templates.html">Templates</a>
+    <a href="about.html">About</a>
+    <a href="https://milo-dixon.github.io/" target="_blank" rel="noopener">Writing Site</a>
+  </div>
+</footer>
 </body>
 </html>

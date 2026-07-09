@@ -1,5 +1,14 @@
 # C-Minus Labs
 
-Professional portfolio for analytics, operations, workflow design, documentation, automation, and internal systems projects.
+Professional portfolio for Milo Dixon.
 
-This site uses sample data and sanitized project scenarios. It does not contain confidential employer or client information.
+Focus areas:
+- Analytics dashboards
+- Business operations
+- Workflow design
+- Training operations
+- HR support systems
+- Documentation
+- Internal systems
+
+Projects use sample, synthetic, or sanitized data. This repository does not contain confidential employer or client information.
